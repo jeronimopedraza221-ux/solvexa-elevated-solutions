@@ -7,17 +7,23 @@ const WHATSAPP = "https://wa.me/573000000000?text=Hola%20Solvexa%2C%20quiero%20u
 
 export function Hero() {
   return (
-    <section id="top" className="relative min-h-[100svh] overflow-hidden pt-20">
+    <section id="top" className="relative min-h-[100svh] overflow-hidden pt-20 bg-background">
       <div className="absolute inset-0">
         <img
           src={heroImg}
-          alt="Infraestructura industrial Solvexa"
+          alt="Ingeniería e infraestructura tecnológica Solvexa"
           width={1920}
           height={1280}
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover opacity-70"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/60 to-background" />
-        <div className="absolute inset-0 bg-grid opacity-40" />
+        {/* Corporate overlay: 80% premium black + 20% navy */}
+        <div className="absolute inset-0 bg-[#050505]/80" />
+        <div className="absolute inset-0 bg-[#102E5C]/30 mix-blend-multiply" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-transparent to-background" />
+        <div className="absolute inset-0 bg-grid opacity-30" />
+        {/* Subtle green corporate accent glow */}
+        <div className="absolute -left-32 top-1/3 h-96 w-96 rounded-full bg-primary/10 blur-3xl" />
+        <div className="absolute right-0 bottom-0 h-[28rem] w-[28rem] rounded-full bg-accent/30 blur-3xl" />
       </div>
 
       <div className="container-x relative z-10 flex min-h-[calc(100svh-5rem)] flex-col justify-center py-16">
