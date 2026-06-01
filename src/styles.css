@@ -126,7 +126,7 @@
     @apply h-px w-8 bg-primary;
   }
   .text-gradient {
-    background: linear-gradient(135deg, oklch(0.97 0.005 240), oklch(0.72 0.19 48));
+    background: linear-gradient(135deg, oklch(1 0 0), oklch(0.74 0.19 130));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
