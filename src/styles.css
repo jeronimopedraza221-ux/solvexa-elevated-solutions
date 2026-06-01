@@ -48,38 +48,38 @@
 :root {
   --radius: 0.5rem;
 
-  /* Solvexa premium industrial — deep graphite + signal orange */
-  --background: oklch(0.16 0.012 240);
-  --foreground: oklch(0.97 0.005 240);
-  --surface: oklch(0.20 0.014 240);
-  --surface-elevated: oklch(0.235 0.016 240);
+  /* Solvexa corporate — premium black + corporate blue + Solvexa green */
+  --background: oklch(0.08 0 0);                  /* #050505 premium black */
+  --foreground: oklch(1 0 0);                     /* #FFFFFF */
+  --surface: oklch(0.14 0 0);                     /* #1A1A1A */
+  --surface-elevated: oklch(0.20 0 0);            /* #2B2B2B */
 
-  --card: oklch(0.21 0.014 240);
-  --card-foreground: oklch(0.97 0.005 240);
-  --popover: oklch(0.21 0.014 240);
-  --popover-foreground: oklch(0.97 0.005 240);
+  --card: oklch(0.14 0 0);
+  --card-foreground: oklch(1 0 0);
+  --popover: oklch(0.14 0 0);
+  --popover-foreground: oklch(1 0 0);
 
-  --primary: oklch(0.72 0.19 48);          /* signal orange */
-  --primary-foreground: oklch(0.13 0.01 240);
-  --accent: oklch(0.86 0.17 92);           /* industrial amber */
-  --accent-foreground: oklch(0.13 0.01 240);
+  --primary: oklch(0.74 0.19 130);                /* #85C226 Solvexa green */
+  --primary-foreground: oklch(1 0 0);
+  --accent: oklch(0.30 0.10 260);                 /* #102E5C corporate blue */
+  --accent-foreground: oklch(1 0 0);
 
-  --secondary: oklch(0.27 0.018 240);
-  --secondary-foreground: oklch(0.97 0.005 240);
-  --muted: oklch(0.25 0.014 240);
-  --muted-foreground: oklch(0.68 0.018 240);
+  --secondary: oklch(0.30 0.10 260);              /* corporate blue */
+  --secondary-foreground: oklch(1 0 0);
+  --muted: oklch(0.27 0 0);                       /* #404040 */
+  --muted-foreground: oklch(0.78 0 0);            /* light gray text */
 
   --destructive: oklch(0.62 0.22 25);
-  --destructive-foreground: oklch(0.98 0.005 240);
+  --destructive-foreground: oklch(1 0 0);
 
-  --border: oklch(1 0 0 / 0.08);
-  --input: oklch(1 0 0 / 0.12);
-  --ring: oklch(0.72 0.19 48);
+  --border: oklch(1 0 0 / 0.10);
+  --input: oklch(1 0 0 / 0.14);
+  --ring: oklch(0.74 0.19 130);
 }
 
 .dark {
-  --background: oklch(0.16 0.012 240);
-  --foreground: oklch(0.97 0.005 240);
+  --background: oklch(0.08 0 0);
+  --foreground: oklch(1 0 0);
 }
 
 @keyframes fade-in {
@@ -126,7 +126,7 @@
     @apply h-px w-8 bg-primary;
   }
   .text-gradient {
-    background: linear-gradient(135deg, oklch(0.97 0.005 240), oklch(0.72 0.19 48));
+    background: linear-gradient(135deg, oklch(1 0 0), oklch(0.74 0.19 130));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
