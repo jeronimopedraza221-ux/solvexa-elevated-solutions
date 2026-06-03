@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/solvexa-logo.png.asset.json";
 
 const links = [
   { href: "#soluciones", label: "Soluciones" },
