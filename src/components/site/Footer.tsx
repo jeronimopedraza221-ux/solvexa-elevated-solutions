@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone, Send } from "lucide-react";
+import logo from "@/assets/solvexa-logo.png.asset.json";
 
 export function Footer() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -20,10 +21,7 @@ export function Footer() {
         <div className="grid lg:grid-cols-2 gap-16 mb-16">
           <div>
             <div className="flex items-center gap-3 mb-6">
-              <span className="grid h-10 w-10 place-items-center rounded-md bg-primary text-primary-foreground font-display font-bold text-lg">
-                S
-              </span>
-              <span className="font-display text-2xl font-bold">Solvexa</span>
+              <img src={logo.url} alt="Solvexa" className="h-12 w-auto object-contain" />
             </div>
             <p className="text-muted-foreground max-w-md mb-8">
               Soluciones técnicas con excelencia para construcción,
