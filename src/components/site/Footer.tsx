@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone, Send } from "lucide-react";
+import logo from "@/assets/solvexa-logo.png.asset.json";
 
 export function Footer() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
