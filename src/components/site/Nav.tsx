@@ -31,12 +31,13 @@ export function Nav() {
     >
       <div className="container-x flex h-20 items-center justify-between">
         <a href="#top" className="group flex items-center gap-2.5">
-          <span className="grid h-9 w-9 place-items-center rounded-md bg-primary text-primary-foreground font-display font-bold text-lg">
-            S
-          </span>
-          <span className="font-display text-xl font-bold tracking-tight">
-            Solvexa
-          </span>
+          <img
+            src={logo.url}
+            alt="Solvexa"
+            className="h-10 w-auto object-contain"
+            width={160}
+            height={40}
+          />
         </a>
 
         <nav className="hidden lg:flex items-center gap-9">
