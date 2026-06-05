@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight, MessageCircle } from "lucide-react";
-import heroImg from "@/assets/hero.jpg";
+import heroAsset from "@/assets/hero-bridge.png.asset.json";
+const heroImg = heroAsset.url;
 import { Stats } from "./Stats";
 
 const WHATSAPP = "https://wa.me/573000000000?text=Hola%20Solvexa%2C%20quiero%20una%20asesor%C3%ADa%20t%C3%A9cnica.";
