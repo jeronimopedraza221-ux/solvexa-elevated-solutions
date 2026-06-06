@@ -74,7 +74,7 @@
 
   --border: oklch(1 0 0 / 0.10);
   --input: oklch(1 0 0 / 0.14);
-  --ring: oklch(0.76 0.18 130);
+  --ring: oklch(0.76 0.18 128);
 }
 
 .dark {
