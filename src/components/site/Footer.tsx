@@ -16,7 +16,7 @@ export function Footer() {
   };
 
   return (
-    <footer id="contacto" className="bg-surface/60 border-t border-border pt-20 pb-10">
+    <footer id="contacto" className="bg-[#0A0A0A] border-t border-border pt-20 pb-10">
       <div className="container-x">
         <div className="grid lg:grid-cols-2 gap-16 mb-16">
           <div>
@@ -34,7 +34,8 @@ export function Footer() {
                 <Phone size={16} className="text-primary" /> +57 300 000 0000
               </a>
               <a href="mailto:contacto@solvexa.com" className="flex items-center gap-3 hover:text-primary transition">
-                <Mail size={16} className="text-primary" /> contacto@solvexa.com
+                <Mail size={16} className="text-primary" />
+                <span>contacto@solvexa.com</span>
               </a>
               <div className="flex items-center gap-3">
                 <MapPin size={16} className="text-primary" /> Bogotá, Colombia
