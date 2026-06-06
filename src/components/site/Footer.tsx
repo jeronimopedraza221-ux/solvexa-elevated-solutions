@@ -16,7 +16,7 @@ export function Footer() {
   };
 
   return (
-    <footer id="contacto" className="bg-surface/60 border-t border-border pt-20 pb-10">
+    <footer id="contacto" className="bg-[#0A0A0A] border-t border-border pt-20 pb-10">
       <div className="container-x">
         <div className="grid lg:grid-cols-2 gap-16 mb-16">
           <div>
