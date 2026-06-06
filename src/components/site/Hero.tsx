@@ -61,7 +61,7 @@ export function Hero() {
         >
           <a
             href="#contacto"
-            className="group inline-flex items-center gap-2 rounded-full bg-[#A6CE39] px-7 py-4 text-sm font-semibold text-[#0B0F14] transition-all hover:brightness-110 hover:shadow-[0_0_40px_-10px_rgba(166,206,57,0.5)]"
+            className="group inline-flex items-center gap-2 rounded-full bg-[#85C11F] px-7 py-4 text-sm font-semibold text-[#0A0A0A] transition-all hover:-translate-y-0.5 hover:brightness-110 hover:shadow-[0_10px_30px_-10px_rgba(133,193,31,0.6)]"
           >
             Solicitar asesoría
             <ArrowRight
@@ -73,7 +73,7 @@ export function Hero() {
             href={WHATSAPP}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/5 backdrop-blur-md px-7 py-4 text-sm font-semibold text-white hover:border-[#A6CE39]/50 hover:bg-[#A6CE39]/10 transition-all"
+            className="inline-flex items-center gap-2 rounded-full border border-white/30 bg-transparent px-7 py-4 text-sm font-semibold text-white hover:bg-[#17325A] hover:border-[#17325A] transition-all"
           >
             <MessageCircle size={16} />
             Cotizar proyecto
