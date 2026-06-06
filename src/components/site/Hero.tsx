@@ -8,18 +8,17 @@ const WHATSAPP = "https://wa.me/573000000000?text=Hola%20Solvexa%2C%20quiero%20u
 
 export function Hero() {
   return (
-    <section id="top" className="relative w-full h-screen min-h-[100vh] overflow-hidden bg-[#0F2545]">
-      {/* Background image — full bleed bridge construction at sunrise */}
+    <section id="top" className="relative w-full h-screen min-h-[100vh] overflow-hidden bg-[#0A0A0A]">
+      {/* Background image — full bleed bridge construction */}
       <div
         className="absolute inset-0 bg-no-repeat bg-center bg-cover"
         style={{ backgroundImage: `url(${heroImg})` }}
         aria-label="Construcción de puente e infraestructura Solvexa"
         role="img"
       />
-      {/* Corporate dark gradient overlay (#0F2545 → #17325A) 65–75% */}
-      <div className="absolute inset-0 bg-gradient-to-br from-[#0F2545]/75 via-[#0F2545]/70 to-[#17325A]/65" />
-      <div className="absolute inset-0 bg-gradient-to-t from-[#0F2545] via-transparent to-transparent" />
-      <div className="absolute inset-0 bg-gradient-to-r from-[#0F2545]/60 via-transparent to-transparent" />
+      {/* Uniform black overlay for maximum text contrast */}
+      <div className="absolute inset-0 bg-black/65" />
+      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
 
       {/* Content */}
       <div className="container-x relative z-10 flex min-h-[85vh] lg:min-h-[100vh] flex-col justify-center pt-24 pb-16">
