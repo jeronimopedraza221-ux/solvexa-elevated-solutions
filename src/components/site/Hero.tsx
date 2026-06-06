@@ -90,7 +90,7 @@ export function Hero() {
         transition={{ delay: 1.2, duration: 0.8 }}
         className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10"
       >
-        <a href="#soluciones" className="flex flex-col items-center gap-2 text-white/40 hover:text-[#A6CE39] transition-colors">
+        <a href="#soluciones" className="flex flex-col items-center gap-2 text-white/40 hover:text-[#85C11F] transition-colors">
           <span className="text-[10px] uppercase tracking-widest">Explorar</span>
           <motion.div
             animate={{ y: [0, 6, 0] }}
