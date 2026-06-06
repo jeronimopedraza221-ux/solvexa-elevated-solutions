@@ -48,26 +48,26 @@
 :root {
   --radius: 0.5rem;
 
-  /* Solvexa corporate — deep black + dark gray + lime green */
-  --background: oklch(0.06 0.01 260);              /* #0B0F14 deep black */
+  /* Solvexa corporate — navy + black + corporate green */
+  --background: oklch(0.04 0 0);                  /* #0A0A0A deep black */
   --foreground: oklch(1 0 0);                     /* #FFFFFF white */
-  --surface: oklch(0.18 0.02 260);               /* #1F2937 dark gray */
-  --surface-elevated: oklch(0.24 0.02 260);       /* #27354a elevated gray */
+  --surface: oklch(0.25 0.06 260);                /* #17325A corporate navy */
+  --surface-elevated: oklch(0.20 0.06 260);       /* #0F2545 dark navy */
 
-  --card: oklch(0.18 0.02 260);
+  --card: oklch(0.25 0.06 260);
   --card-foreground: oklch(1 0 0);
-  --popover: oklch(0.18 0.02 260);
+  --popover: oklch(0.25 0.06 260);
   --popover-foreground: oklch(1 0 0);
 
-  --primary: oklch(0.76 0.18 130);               /* #A6CE39 lime green */
-  --primary-foreground: oklch(0.06 0.01 260);
-  --accent: oklch(0.30 0.08 260);                 /* #1E3A5F corporate navy */
+  --primary: oklch(0.76 0.18 128);                /* #85C11F corporate green */
+  --primary-foreground: oklch(0.04 0 0);
+  --accent: oklch(0.25 0.06 260);                 /* #17325A corporate navy */
   --accent-foreground: oklch(1 0 0);
 
-  --secondary: oklch(0.30 0.08 260);              /* corporate navy */
+  --secondary: oklch(0.25 0.06 260);              /* #17325A corporate navy */
   --secondary-foreground: oklch(1 0 0);
-  --muted: oklch(0.35 0.02 260);                  /* #374151 muted gray */
-  --muted-foreground: oklch(0.80 0 0);           /* light gray text */
+  --muted: oklch(0.20 0.06 260);                  /* #0F2545 dark navy */
+  --muted-foreground: oklch(0.86 0.005 260);      /* #D9DCE1 light gray */
 
   --destructive: oklch(0.62 0.22 25);
   --destructive-foreground: oklch(1 0 0);
