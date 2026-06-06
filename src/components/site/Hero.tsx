@@ -38,7 +38,7 @@ export function Hero() {
           className="max-w-5xl text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-[1.05] tracking-tight text-white"
         >
           Soluciones técnicas con{" "}
-          <span className="text-[#A6CE39]">excelencia</span>{" "}
+          <span className="text-[#85C11F]">excelencia</span>{" "}
           para construcción e infraestructura.
         </motion.h1>
 
