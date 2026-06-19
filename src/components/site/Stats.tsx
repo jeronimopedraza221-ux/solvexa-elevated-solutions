@@ -2,9 +2,9 @@ import { motion, useInView, useMotionValue, useTransform, animate } from "framer
 import { useEffect, useRef } from "react";
 
 const stats = [
-  { value: 480, suffix: "+", label: "Proyectos ejecutados" },
-  { value: 220, suffix: "+", label: "Clientes corporativos" },
-  { value: 18, suffix: " años", label: "Experiencia técnica" },
+  { value: 12, suffix: "+", label: "Proyectos ejecutados" },
+  { value: 40, suffix: "+", label: "Clientes corporativos" },
+  { value: 3, suffix: " años", label: "Experiencia técnica" },
   { value: 35, suffix: "+", label: "Soluciones implementadas" },
 ];
 
