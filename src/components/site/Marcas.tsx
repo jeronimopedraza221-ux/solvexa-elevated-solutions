@@ -1,6 +1,5 @@
 const brands = [
-  "SIKA", "BASF", "MAPEI", "FOSROC", "PENETRON", "HENKEL",
-  "PPG", "AKZONOBEL", "JOTUN", "HILTI", "SAINT-GOBAIN", "CHRYSO",
+  "TOXEMENT", "PAVCO", "AQUACELL", "VULKEM", "BECJOINT", "PROBILT",
 ];
 
 export function Marcas() {
