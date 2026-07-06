@@ -8,7 +8,7 @@ const steps = [
   { icon: LineChart, n: "04", title: "Resultados y seguimiento", text: "Verificación de desempeño, pruebas y plan de mantenimiento a largo plazo." },
 ];
 
-const WHATSAPP = "https://wa.me/573000000000?text=Hola%20Solvexa%2C%20quiero%20hablar%20con%20un%20asesor%20t%C3%A9cnico.";
+const WHATSAPP = "https://wa.me/573228127001?text=Hola%20Solvexa%2C%20quiero%20hablar%20con%20un%20asesor%20t%C3%A9cnico.";
 
 export function Asesoria() {
   return (
