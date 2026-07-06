@@ -33,9 +33,9 @@ export function Footer() {
               <a href="tel:+573228127001" className="flex items-center gap-3 hover:text-primary transition">
                 <Phone size={16} className="text-primary" /> +57 322 812 7001
               </a>
-              <a href="mailto:contacto@solvexa.com" className="flex items-center gap-3 hover:text-primary transition">
+              <a href="mailto:info@solvexapro.com" className="flex items-center gap-3 hover:text-primary transition">
                 <Mail size={16} className="text-primary" />
-                <span>contacto@solvexa.com</span>
+                <span>info@solvexapro.com</span>
               </a>
               <div className="flex items-center gap-3">
                 <MapPin size={16} className="text-primary" /> Bogotá, Colombia
