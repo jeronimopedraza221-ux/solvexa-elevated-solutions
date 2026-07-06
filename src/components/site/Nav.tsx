@@ -53,7 +53,9 @@ export function Nav() {
         </nav>
 
         <a
-          href="#contacto"
+          href="https://wa.me/573228127001?text=Hola%20Solvexa%2C%20quiero%20una%20asesor%C3%ADa%20t%C3%A9cnica."
+          target="_blank"
+          rel="noopener noreferrer"
           className="hidden lg:inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground hover:shadow-glow transition-all"
         >
           Solicitar asesoría
@@ -82,7 +84,9 @@ export function Nav() {
               </a>
             ))}
             <a
-              href="#contacto"
+              href="https://wa.me/573228127001?text=Hola%20Solvexa%2C%20quiero%20una%20asesor%C3%ADa%20t%C3%A9cnica."
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setOpen(false)}
               className="mt-2 inline-flex items-center justify-center rounded-full bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground"
             >

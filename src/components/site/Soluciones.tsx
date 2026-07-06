@@ -7,6 +7,8 @@ import pisos from "@/assets/sol-pisos.jpg";
 import corrosion from "@/assets/sol-corrosion.jpg";
 import fuego from "@/assets/sol-fuego.jpg";
 
+const WHATSAPP = "https://wa.me/573228127001?text=Hola%20Solvexa%2C%20quiero%20conversar%20sobre%20una%20soluci%C3%B3n%20t%C3%A9cnica.";
+
 const sols = [
   { n: "01", img: humedad, title: "Humedad y filtraciones", text: "Sistemas de impermeabilización para cubiertas, sótanos, tanques y áreas críticas." },
   { n: "02", img: estructural, title: "Reparación estructural", text: "Refuerzo y rehabilitación de concreto con morteros, anclajes y grouts de alta resistencia." },
@@ -39,7 +41,9 @@ export function Soluciones() {
           {sols.map((s, i) => (
             <motion.a
               key={s.title}
-              href="#contacto"
+              href={WHATSAPP}
+              target="_blank"
+              rel="noopener noreferrer"
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-60px" }}

@@ -4,7 +4,7 @@ import heroAsset from "@/assets/hero-bridge-sunrise.png.asset.json";
 const heroImg = heroAsset.url;
 import { Stats } from "./Stats";
 
-const WHATSAPP = "https://wa.me/573000000000?text=Hola%20Solvexa%2C%20quiero%20una%20asesor%C3%ADa%20t%C3%A9cnica.";
+const WHATSAPP = "https://wa.me/573228127001?text=Hola%20Solvexa%2C%20quiero%20una%20asesor%C3%ADa%20t%C3%A9cnica.";
 
 export function Hero() {
   return (
@@ -60,7 +60,9 @@ export function Hero() {
           className="mt-10 flex flex-wrap items-center gap-4"
         >
           <a
-            href="#contacto"
+            href={WHATSAPP}
+            target="_blank"
+            rel="noopener noreferrer"
             className="group inline-flex items-center gap-2 rounded-full bg-[#85C11F] px-7 py-4 text-sm font-semibold text-[#0A0A0A] transition-all hover:-translate-y-0.5 hover:brightness-110 hover:shadow-[0_10px_30px_-10px_rgba(133,193,31,0.6)]"
           >
             Solicitar asesoría

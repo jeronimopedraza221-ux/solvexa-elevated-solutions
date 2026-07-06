@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { MessageCircle, ArrowRight } from "lucide-react";
 import bg from "@/assets/cta-bg.jpg";
 
-const WHATSAPP = "https://wa.me/573000000000?text=Hola%20Solvexa%2C%20quiero%20conversar%20sobre%20un%20proyecto.";
+const WHATSAPP = "https://wa.me/573228127001?text=Hola%20Solvexa%2C%20quiero%20conversar%20sobre%20un%20proyecto.";
 
 export function CtaFinal() {
   return (
@@ -47,7 +47,9 @@ export function CtaFinal() {
               Escribir por WhatsApp
             </a>
             <a
-              href="#contacto"
+              href={WHATSAPP}
+              target="_blank"
+              rel="noopener noreferrer"
               className="group inline-flex items-center gap-2 rounded-full border border-border bg-background/40 backdrop-blur px-7 py-4 text-sm font-semibold hover:border-primary/50 transition-all"
             >
               Solicitar cotización

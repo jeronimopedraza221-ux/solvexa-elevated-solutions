@@ -9,7 +9,7 @@ export function Footer() {
   const submit = (e: React.FormEvent) => {
     e.preventDefault();
     const text = `Nuevo contacto:%0A%0ANombre: ${form.name}%0AEmail: ${form.email}%0AMensaje: ${form.message}`;
-    window.open(`https://wa.me/573000000000?text=${text}`, "_blank");
+    window.open(`https://wa.me/573228127001?text=${text}`, "_blank");
     setSent(true);
     setTimeout(() => setSent(false), 3000);
     setForm({ name: "", email: "", message: "" });
@@ -30,8 +30,8 @@ export function Footer() {
             </p>
 
             <div className="space-y-3 text-sm">
-              <a href="tel:+573000000000" className="flex items-center gap-3 hover:text-primary transition">
-                <Phone size={16} className="text-primary" /> +57 300 000 0000
+              <a href="tel:+573228127001" className="flex items-center gap-3 hover:text-primary transition">
+                <Phone size={16} className="text-primary" /> +57 322 812 7001
               </a>
               <a href="mailto:contacto@solvexa.com" className="flex items-center gap-3 hover:text-primary transition">
                 <Mail size={16} className="text-primary" />
