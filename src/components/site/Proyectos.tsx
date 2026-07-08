@@ -89,6 +89,7 @@ export function Proyectos() {
             >
               <button
                 onClick={() => setActive(null)}
+                aria-label="Cerrar"
                 className="absolute top-4 right-4 z-10 grid h-10 w-10 place-items-center rounded-full bg-background/80 backdrop-blur hover:bg-primary hover:text-primary-foreground transition"
               >
                 <X size={18} />
