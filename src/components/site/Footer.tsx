@@ -100,8 +100,8 @@ export function Footer() {
           </div>
           <div className="flex items-center gap-4">
             <a href="#" className="grid h-9 w-9 place-items-center rounded-full border border-border hover:bg-primary hover:text-primary-foreground hover:border-primary transition"><Linkedin size={15} /></a>
-            <a href="#" className="grid h-9 w-9 place-items-center rounded-full border border-border hover:bg-primary hover:text-primary-foreground hover:border-primary transition"><Instagram size={15} /></a>
-            <a href="#" className="grid h-9 w-9 place-items-center rounded-full border border-border hover:bg-primary hover:text-primary-foreground hover:border-primary transition"><Facebook size={15} /></a>
+            <a href="https://www.instagram.com/solvexa_colombia/" target="_blank" rel="noopener noreferrer" className="grid h-9 w-9 place-items-center rounded-full border border-border hover:bg-primary hover:text-primary-foreground hover:border-primary transition"><Instagram size={15} /></a>
+            <a href="https://www.facebook.com/profile.php?id=61590643583917" target="_blank" rel="noopener noreferrer" className="grid h-9 w-9 place-items-center rounded-full border border-border hover:bg-primary hover:text-primary-foreground hover:border-primary transition"><Facebook size={15} /></a>
           </div>
         </div>
 
