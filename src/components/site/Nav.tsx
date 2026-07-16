@@ -32,7 +32,7 @@ export function Nav() {
       <div className="container-x flex h-20 items-center justify-between">
         <a href="#top" className="group flex items-center gap-2.5">
           <img
-            src={logo.url}
+            src={logo}
             alt="Solvexa"
             className="h-10 w-auto object-contain"
             width={160}
